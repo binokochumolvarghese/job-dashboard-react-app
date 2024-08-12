@@ -1,0 +1,68 @@
+{
+  "header": [
+    { "head": "Total Jobs", "value": 23 },
+    { "head": "Completed Jobs", "value": 8 },
+    { "head": "Pending Jobs", "value": 15 },
+    { "head": "Jobs to Appro", "value": 6 }
+  ],
+
+  "details": [
+    {
+      "id": "1",
+      "EmployeeName": "Anish S Nair",
+      "CompletedJobs": "11",
+      "PendingJobs": "24",
+      "TotalJobs": "35"
+    },
+    {
+      "id": "2",
+      "EmployeeName": "Gopee Krishnan",
+      "CompletedJobs": "11",
+      "PendingJobs": "24",
+      "TotalJobs": "35"
+    },
+    {
+      "id": "3",
+      "EmployeeName": "Lijo Abraham",
+      "CompletedJobs": "11",
+      "PendingJobs": "24",
+      "TotalJobs": "35"
+    },
+    {
+      "id": "4",
+      "EmployeeName": "Vishnu Kumar",
+      "CompletedJobs": "11",
+      "PendingJobs": "24",
+      "TotalJobs": "35"
+    },
+    {
+      "id": "5",
+      "EmployeeName": "Raji Ratheesh",
+      "CompletedJobs": "11",
+      "PendingJobs": "24",
+      "TotalJobs": "35"
+    },
+    {
+      "id": "6",
+      "EmployeeName": "Sruthy S",
+      "CompletedJobs": "11",
+      "PendingJobs": "24",
+      "TotalJobs": "35"
+    },
+    {
+      "id": "7",
+      "EmployeeName": "Aswathy Mohan",
+      "CompletedJobs": "11",
+      "PendingJobs": "24",
+      "TotalJobs": "35"
+    }
+  ],
+  "JobDetails": [
+    { "id": "1","JobName": "Close vessel job.", "Employee": "Aswathy" },
+    { "id": "2","JobName": "Close Invoice.", "Employee": "Sruthy" },
+    { "id": "3","JobName": "Create Manifest.", "Employee": "Vishnu" },
+    { "id": "4","JobName": "Create Invoice.", "Employee": "Lijo" },
+    { "id": "5","JobName": "Create Purchase Journal.", "Employee": "Vishnu" },
+    { "id": "6","JobName": "Create Invoice..", "Employee": "Lijo" }
+  ]
+}
