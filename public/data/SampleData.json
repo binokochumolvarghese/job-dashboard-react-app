@@ -10,51 +10,51 @@
     {
       "id": "1",
       "EmployeeName": "Anish S Nair",
-      "CompletedJobs": "12",
-      "PendingJobs": "24",
-      "TotalJobs": "36"
+      "CompletedJobs": "15",
+      "PendingJobs": "20",
+      "TotalJobs": "35"
     },
     {
       "id": "2",
       "EmployeeName": "Gopee Krishnan",
-      "CompletedJobs": "11",
+      "CompletedJobs": "13",
       "PendingJobs": "24",
-      "TotalJobs": "35"
+      "TotalJobs": "37"
     },
     {
       "id": "3",
       "EmployeeName": "Lijo Abraham",
-      "CompletedJobs": "11",
+      "CompletedJobs": "13",
       "PendingJobs": "24",
-      "TotalJobs": "35"
+      "TotalJobs": "37"
     },
     {
       "id": "4",
       "EmployeeName": "Vishnu Kumar",
-      "CompletedJobs": "11",
-      "PendingJobs": "24",
-      "TotalJobs": "35"
+      "CompletedJobs": "12",
+      "PendingJobs": "22",
+      "TotalJobs": "34"
     },
     {
       "id": "5",
       "EmployeeName": "Raji Prasanth",
-      "CompletedJobs": "11",
-      "PendingJobs": "24",
-      "TotalJobs": "35"
+      "CompletedJobs": "12",
+      "PendingJobs": "20",
+      "TotalJobs": "32"
     },
     {
       "id": "6",
       "EmployeeName": "Sruthy S",
       "CompletedJobs": "11",
-      "PendingJobs": "24",
-      "TotalJobs": "35"
+      "PendingJobs": "22",
+      "TotalJobs": "33"
     },
     {
       "id": "7",
       "EmployeeName": "Aswathy Mohan",
-      "CompletedJobs": "11",
-      "PendingJobs": "24",
-      "TotalJobs": "35"
+      "CompletedJobs": "10",
+      "PendingJobs": "20",
+      "TotalJobs": "30"
     }
   ],
   "JobDetails": [
