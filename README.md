@@ -6,7 +6,7 @@ https://react-job-dashboard.web.app/
 
 
 #### Screenshot
-![Job Dashboard Summary Screenshot](https://raw.githubusercontent.com/binokochumolvarghese/job-dashboard-react-app/public/job-summary-dashboard-ss.png)
+![Job Dashboard Summary Screenshot](https://github.com/binokochumolvarghese/job-dashboard-react-app/blob/main/public/job-summary-dashboard-ss.png)
 
 #### Tech stack
 - React
