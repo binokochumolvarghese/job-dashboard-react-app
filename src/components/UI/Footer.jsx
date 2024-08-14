@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="bg-white p-6 text-center mt-10 bottom-0">
-        <span>Job Dashboard © {year} </span>
+        <span>Job Summary © {year} </span>
         <br />
         <a className="font-light" href="https://binovarghese.com/">
           Made with ✨ by Bino

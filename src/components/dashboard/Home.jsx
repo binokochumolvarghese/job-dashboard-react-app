@@ -16,7 +16,6 @@ const Home = () => {
       setData(data);
     } catch (error) {
       console.log(error);
-      setData([]);
       setError(error);
     } finally {
       setLoading(false);
@@ -25,6 +24,11 @@ const Home = () => {
 
   useEffect(() => {
     fetchData();
+
+    const interval = setInterval(()=> fetchData(), 30000);
+    return ()=> {
+        clearInterval(interval);
+    }
   }, []);
 
   return (
@@ -36,9 +40,9 @@ const Home = () => {
       <div className="bodyComponent container mx-auto pb-4 pt-5">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-7.5 ">
           {data &&
-            data.header.map((header) => {
+            data.header.map((header,index) => {
               return (
-                <Card props={{ details: header.head, value: header.value }} />
+                <Card key={index} props={{ details: header.head, value: header.value }} />
               );
             })}
         </div>
@@ -66,10 +70,10 @@ const Home = () => {
             </thead>
 
             {data &&
-              data.details.map((items) => {
+              data.details.map((items,index) => {
                 return (
                   <tbody>
-                    <tr>
+                    <tr key={items.id}>
                       <td className="px-6 py-4 whitespace-nowrap text-xl font-medium text-gray-800 text-left">
                         {items.id}
                       </td>
@@ -107,9 +111,9 @@ const Home = () => {
             </thead>
 
             {data &&
-              data.JobDetails.map((jobItems) => {
+              data.JobDetails.map((jobItems,index) => {
                 return (
-                  <tbody>
+                  <tbody key={jobItems.id}>
                     <tr>
                       <td className="px-4 py-2 whitespace-nowrap text-lg font-medium text-gray-800 text-left">
                         {jobItems.id}
