@@ -1,4 +1,4 @@
-### JOb Summary App
+### Job Summary App
 A dashboard application that provides real-time job summaries for employees, automatically refreshing every 30 seconds for up-to-date information.
 
 #### Link
