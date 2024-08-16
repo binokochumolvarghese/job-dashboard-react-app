@@ -1,8 +1,8 @@
 {
   "header": [
-    { "head": "Total Jobs", "value": 23 },
-    { "head": "Completed Jobs", "value": 8 },
-    { "head": "Pending Jobs", "value": 15 },
+    { "head": "Total Jobs", "value": 238 },
+    { "head": "Completed Jobs", "value": 84 },
+    { "head": "Pending Jobs", "value": 152 },
     { "head": "Jobs to Approve", "value": 6 }
   ],
 
